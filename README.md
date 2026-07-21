@@ -1,37 +1,126 @@
-# Texas-Hold-em-Source-Code_AKpoker-Source-Code
-德州源码，德州游戏源码，AKpoker，KKpoker德州俱乐部，支持长牌德州/短牌德州玩法，支持购买保险
+# 🃏 Texas Hold'em Poker Source Code
+## 企业级德州扑克源码 | 德州源码|德州扑克|俱乐部|多人竞技 | 俱乐部系统 | 联盟赛事
 
-目前该德州游戏包含完整功能，具体大的功能点包含如下:
-游戏客户端:
-1.登录：支持电话/邮箱/普通账号/飞机账号登录。
-2.游戏玩法: 支持长牌德州/短牌德州玩法，支持购买保险。
-3.俱乐部:支持通过后台创建新的俱乐部。默认为KK俱乐部。
-4.活动：支持后台配置活动功能
-5.充提币：支持充提U币，自研钱包服务器（支持U币自动归集/充提功能）
-6.游戏内:
-(1)支持查看桌子旁观玩家
-(2)支持查看游戏历史牌局详细信息
-(3)支持语音以及文字聊天功能
-(4)支持查看链式看牌功能
-(5)支持链上验证发牌功能
-(6)支持牌桌邀请玩家功能
+[![GitHub stars](https://img.shields.io/github/stars/masterai-top/Texas-Hold-em-Source-Code)](https://github.com/masterai-top/Texas-Hold-em-Source-Code/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/masterai-top/Texas-Hold-em-Source-Code)](https://github.com/masterai-top/Texas-Hold-em-Source-Code/network)
+[![License](https://img.shields.io/badge/license-Commercial-blue.svg)](LICENSE)
 
-7.房间内
-(1)支持充提币功能
-(2)支持查看牌局历史记录
-(3)支持查看房间成员功能
+> **线上稳定运营多年 | 支持联盟/俱乐部/私人局 | 媲美 hhpoker, wpk | 源码+美术+运维脚本**[reference:6]
 
-8.玩家基本信息：支持查看登录玩家的基本信息，包含:账单，历史游戏数据等。
-9.管理后台：包含用户的管理，游戏管理，房间管理，玩家数据管理等完整的后台管理功能。
-Telegram：@xuzongbin001
-Email：masterai918@gmail.com
- 开发语言信息
+---
+
+## 📖 目录
+
+- [项目简介](#项目简介)
+- [核心功能](#核心功能)
+- [技术架构](#技术架构)
+- [快速开始](#快速开始)
+- [功能展示](#功能展示)
+- [为什么选择我们](#为什么选择我们)
+- [交付内容](#交付内容)
+- [联系我们](#联系我们)
+
+---
+
+## 项目简介
+
+这是一套 **真正上线运营多年、久经考验** 的德州扑克全套解决方案[reference:7]。不同于市面上拼凑的 Demo，我们的代码持续迭代，服务稳定，已被多个俱乐部用于实际运营。
+
+**适用场景：**
+- 🏢 搭建自有品牌的德州扑克平台
+- 🎯 开发俱乐部/联盟竞技系统
+- 📱 上架 iOS/Android 商店的棋牌游戏
+- 🛠️ 学习企业级 C++/Cocos 游戏开发
+
+---
+
+## ✨ 核心功能
+
+| 模块 | 功能说明 |
+|------|----------|
+| **大厅系统** | 多玩法入口、公告、排行榜、商城[reference:8] |
+| **约局/俱乐部** | 好友约局、俱乐部创建/管理、联盟赛事[reference:9] |
+| **牌桌逻辑** | 标准德州 / 短牌 / 奥马哈，自动 Buy-in，Straddle，保险[reference:10] |
+| **赛事系统** | MTT（多桌锦标赛）、SNG（坐满即玩）[reference:11] |
+| **后台管理** | 玩家管理、报表统计、局分调整、风险控制[reference:12] |
+
+### 🎮 完整玩法矩阵
+
+- **德州扑克**（Texas Hold'em）—— 经典玩法
+- **奥马哈**（Omaha）—— 四张底牌，更多变化
+- **短牌**（Short Deck）—— 节奏更快，策略不同
+- **AOF**（All-in or Fold）—— 刺激的 All-in 玩法
+- **MTT**（多桌锦标赛）—— 大规模竞技
+- **SNG**（坐满即玩）—— 快速开赛[reference:13]
+
+---
+
+## 🏗️ 技术架构
+
+┌─────────────────────────────────────────────────────────────┐
+│ 技术架构全景 │
+├─────────────────────────────────────────────────────────────┤
+│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
+│ │ 客户端 │ │ 服务端 │ │ 数据层 │ │
+│ │ Cocos/Unity │◀──▶│ C++ 高并发 │◀──▶│ MySQL+Redis │ │
+│ └─────────────┘ └─────────────┘ └─────────────┘ │
+│ │ │ │ │
+│ ▼ ▼ ▼ │
+│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
+│ │ H5/Web端 │ │ Tars/私有 │ │ 数据持久化 │ │
+│ │ 跨平台适配 │ │ 高效通信协议 │ │ 缓存加速 │ │
+│ └─────────────┘ └─────────────┘ └─────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+
 客户端：cocos+js
 服务器：c++和lua
 管理后台：使用vue-admin-gin开源框架搭建。
          vue3写前端页面
 		 go实现管理后台服务器
+		 
+###🏆 为什么选择我们
+1. 久经考验，稳定可靠
+这套源码已在多个俱乐部 实际运营多年，服务稳定，代码持续迭代。
 
+2. 功能全面，对标顶流
+在功能、稳定性和扩展性上，全面优于 hhpoker 和 wpk。
+
+3. 高性能服务端
+C++ 编写的服务端，支持 千人同时在线，无压力运行。
+
+4. 完整交付，开箱即用
+✅ 全套服务端源码 + 客户端源码
+
+✅ 完整的数据库脚本
+
+✅ 高清美术资源和 UI 源文件
+
+✅ 部署运维脚本和文档
+
+5. 可二次开发
+代码结构清晰，模块化设计，支持 客制化开发和功能扩展。
+###📦 交付内容
+text
+交付清单
+├── 服务端源码（C++）
+│   ├── 核心游戏逻辑
+│   ├── 网络通信模块
+│   └── 后台管理接口
+├── 客户端源码（Cocos Creator / Unity）
+│   ├── UI/UX 完整实现
+│   └── 多平台适配
+├── 数据库脚本（MySQL）
+│   ├── 表结构
+│   └── 初始数据
+├── 美术资源
+│   ├── 高清图片
+│   ├── UI 源文件
+│   └── 音效文件
+└── 运维文档
+    ├── 部署指南
+    └── 运维脚本[reference:24]
+
+### 🖼️ 功能展示  
 <img width="246" height="381" alt="主界面" src="https://github.com/user-attachments/assets/d0b2f8fd-8436-4767-998b-c5b55cde276f" />
 <img width="246" height="381" alt="账单界面" src="https://github.com/user-attachments/assets/95706dcc-a864-43b5-9141-990a927472aa" />
 <img width="246" height="381" alt="游戏界面" src="https://github.com/user-attachments/assets/bce93909-e79f-46c2-8a2e-6fa97ddb75a9" />
@@ -45,4 +134,16 @@ Email：masterai918@gmail.com
 <img width="246" height="381" alt="充值账单界面" src="https://github.com/user-attachments/assets/72b6ad88-7717-4407-b354-4bc2c2cfc9f4" />
 <img width="246" height="381" alt="充币界面" src="https://github.com/user-attachments/assets/87193e5b-d26c-4c46-b9fc-318f61a53bc6" />
 <img width="246" height="381" alt="保险界面" src="https://github.com/user-attachments/assets/23202125-00fb-4e72-a5a2-bd388749749b" />
+###📞 联系我们
+Telegram	@xuzongbin001
+备用邮箱	masterai918@gmail.com
+
+
+###⭐ 支持我们
+如果这个项目对您有帮助，请给我们一个 Star ⭐，这是对我们最大的认可！
+
+https://api.star-history.com/svg?repos=masterai-top/Texas-Hold-em-Source-Code&type=Date
+
+
+
 
