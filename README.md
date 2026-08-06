@@ -1,5 +1,5 @@
 # 🃏 Texas Hold'em Poker Source Code
-## 企业级德州扑克源码 | 德州源码|德州扑克|俱乐部|多人竞技 | 俱乐部系统 | 联盟赛事|KK德州
+## 企业级德州扑克源码 | 德州源码|德州扑克|KKpoker源码俱乐部|多人竞技 | 俱乐部系统 | 联盟赛事|KK德州
 
 [![GitHub stars](https://img.shields.io/github/stars/masterai-top/Texas-Hold-em-Source-Code)](https://github.com/masterai-top/Texas-Hold-em-Source-Code/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/masterai-top/Texas-Hold-em-Source-Code)](https://github.com/masterai-top/Texas-Hold-em-Source-Code/network)
