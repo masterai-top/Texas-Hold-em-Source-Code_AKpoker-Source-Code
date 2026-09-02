@@ -1,15 +1,23 @@
-# 🃏 Texas Hold'em Poker Source Code
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+
+# 长牌、短牌与保险玩法德州扑克|KKpoker|AApoker|永旺德州
+
 ## 企业级德州扑克源码 | 德州源码|德州扑克|KKpoker源码俱乐部|多人竞技 | 俱乐部系统 | 联盟赛事|KK德州|永旺德州
+
 
 [![GitHub stars](https://img.shields.io/github/stars/masterai-top/Texas-Hold-em-Source-Code)](https://github.com/masterai-top/Texas-Hold-em-Source-Code/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/masterai-top/Texas-Hold-em-Source-Code)](https://github.com/masterai-top/Texas-Hold-em-Source-Code/network)
 [![License](https://img.shields.io/badge/license-Commercial-blue.svg)](LICENSE)
 
+
 > **线上稳定运营多年 | 支持联盟/俱乐部/私人局 | 媲美 hhpoker, wpk | 源码+美术+运维脚本**[reference:6]
+
 
 ---
 
+
 ## 📖 目录
+
 
 - [项目简介](#项目简介)
 - [核心功能](#核心功能)
@@ -20,11 +28,15 @@
 - [交付内容](#交付内容)
 - [联系我们](#联系我们)
 
+
 ---
+
 
 ## 项目简介
 
+
 这是一套 **真正上线运营多年、久经考验** 的德州扑克全套解决方案[reference:7]。不同于市面上拼凑的 Demo，我们的代码持续迭代，服务稳定，已被多个俱乐部用于实际运营。包括AKpoker和KKpoker都是使用我们的源码；
+
 
 **适用场景：**
 - 🏢 搭建自有品牌的德州扑克平台
@@ -32,9 +44,12 @@
 - 📱 上架 iOS/Android 商店的棋牌游戏
 - 🛠️ 学习企业级 C++/Cocos 游戏开发
 
+
 ---
 
+
 ## ✨ 核心功能
+
 
 | 模块 | 功能说明 |
 |------|----------|
@@ -44,7 +59,9 @@
 | **赛事系统** | MTT（多桌锦标赛）、SNG（坐满即玩）[reference:11] |
 | **后台管理** | 玩家管理、报表统计、局分调整、风险控制[reference:12] |
 
+
 ### 🎮 完整玩法矩阵
+
 
 - **德州扑克**（Texas Hold'em）—— 经典玩法
 - **奥马哈**（Omaha）—— 四张底牌，更多变化
@@ -53,16 +70,19 @@
 - **MTT**（多桌锦标赛）—— 大规模竞技
 - **SNG**（坐满即玩）—— 快速开赛[reference:13]
 
+
 ---
 
+
 ## 🏗️ 技术架构
+
 
 ┌─────────────────────────────────────────────────────────────┐
 │ 技术架构全景 │
 ├─────────────────────────────────────────────────────────────┤
 │ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
 │ │ 客户端 │ │ 服务端 │ │ 数据层 │ │
-│ │ Cocos/Unity │◀──▶│ C++ 高并发 │◀──▶│ MySQL+Redis │ │
+│ │ Cocos/Unity │◀──▶│ C++ 并发能力需以公开测试结果验证 │◀──▶│ MySQL+Redis │ │
 │ └─────────────┘ └─────────────┘ └─────────────┘ │
 │ │ │ │ │
 │ ▼ ▼ ▼ │
@@ -71,6 +91,7 @@
 │ │ 跨平台适配 │ │ 高效通信协议 │ │ 缓存加速 │ │
 │ └─────────────┘ └─────────────┘ └─────────────┘ │
 └─────────────────────────────────────────────────────────────┘
+
 
 客户端：cocos+js
 服务器：c++和lua
@@ -82,20 +103,27 @@
 1. 久经考验，稳定可靠
 这套源码已在多个俱乐部 实际运营多年，服务稳定，代码持续迭代。
 
+
 2. 功能全面，对标顶流
 在功能、稳定性和扩展性上，全面优于 hhpoker 和 wpk。
+
 
 3. 高性能服务端
 C++ 编写的服务端，支持 千人同时在线，无压力运行。
 
+
 4. 完整交付，开箱即用
 ✅ 全套服务端源码 + 客户端源码
 
+
 ✅ 完整的数据库脚本
+
 
 ✅ 高清美术资源和 UI 源文件
 
+
 ✅ 部署运维脚本和文档
+
 
 5. 可二次开发
 代码结构清晰，模块化设计，支持 客制化开发和功能扩展。
@@ -120,6 +148,7 @@ text
     ├── 部署指南
     └── 运维脚本[reference:24]
 
+
 ### 🖼️ 功能展示  
 <img width="246" height="381" alt="主界面" src="https://github.com/user-attachments/assets/d0b2f8fd-8436-4767-998b-c5b55cde276f" />
 <img width="246" height="381" alt="账单界面" src="https://github.com/user-attachments/assets/95706dcc-a864-43b5-9141-990a927472aa" />
@@ -142,8 +171,5 @@ Telegram	@xuzongbin001
 ###⭐ 支持我们
 如果这个项目对您有帮助，请给我们一个 Star ⭐，这是对我们最大的认可！
 
+
 https://api.star-history.com/svg?repos=masterai-top/Texas-Hold-em-Source-Code&type=Date
-
-
-
-
