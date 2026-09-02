@@ -81,7 +81,7 @@
 | **後台管理** | 玩家管理、報表統計、局分調整、風險控制[reference:12] |
 
 
-### 🎮 完整玩法矩陣
+##  🎮 完整玩法矩陣
 
 
 - **德州撲克**（Texas Hold'em）— 經典玩法
@@ -227,14 +227,15 @@ text
 <img width="246" height="381" alt="充值账单界面" src="https://github.com/user-attachments/assets/72b6ad88-7717-4407-b354-4bc2c2cfc9f4" />
 <img width="246" height="381" alt="充币界面" src="https://github.com/user-attachments/assets/87193e5b-d26c-4c46-b9fc-318f61a53bc6" />
 <img width="246" height="381" alt="保险界面" src="https://github.com/user-attachments/assets/23202125-00fb-4e72-a5a2-bd388749749b" />
-###📞 聯絡我們
+
+## 📞 聯絡我們
 
 Telegram @xuzongbin001
 
 備用信箱 masterai918@gmail.com
 
 
-###⭐ 支持我們
+## ⭐ 支持我們
 
 如果這個項目對您有幫助，請給我們一個 Star ⭐，這是對我們最大的認可！
 
