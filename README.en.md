@@ -62,7 +62,7 @@ Platforms such as AKpoker and KKpoker utilize our source code;
 | **Backend Management** | Player management, statistical reporting, game score adjustments, risk control |
 
 
-### 🎮 Comprehensive Game Matrix
+## 🎮 Comprehensive Game Matrix
 
 
 - **Texas Hold'em** — Classic gameplay
@@ -101,7 +101,7 @@ Server: C++ and Lua
 Admin Backend: Built using the vue-admin-gin open-source framework.
          vue3写前端页面
 Go-based Backend Management Server
-### 🏆 Why Choose Us?
+## 🏆 Why Choose Us?
 1. **Battle-Tested, Stable, and Reliable**
 This source code has been in active operation across multiple clubs for years, ensuring stable service and continuous code iteration.
 
@@ -163,12 +163,15 @@ Delivery Checklist
 <img width="246" height="381" alt="充值账单界面" src="https://github.com/user-attachments/assets/72b6ad88-7717-4407-b354-4bc2c2cfc9f4" />
 <img width="246" height="381" alt="充币界面" src="https://github.com/user-attachments/assets/87193e5b-d26c-4c46-b9fc-318f61a53bc6" />
 <img width="246" height="381" alt="保险界面" src="https://github.com/user-attachments/assets/23202125-00fb-4e72-a5a2-bd388749749b" />
-###📞 Contact Us
+
+## 📞 Contact Us
+
 Telegram	@xuzongbin001
+
 Backup Email	masterai918@gmail.com
 
 
-###⭐ Support Us
+## ⭐ Support Us
 If you find this project helpful, please give us a Star ⭐—it is the greatest recognition for us!
 
 
