@@ -1,243 +1,120 @@
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# 長牌、短牌與保險玩法德州撲克系統|KKpoker|AApoker|永旺德州
+# 德州撲克原始碼（德州源碼）｜長牌、短牌與俱樂部系統
 
-## 企業級德州撲克源碼 | 德州源碼|德州撲克|KKpoker源碼俱樂部|多人競技 | 俱樂部系統 | 聯盟賽事|KK德州|永旺德州
+適合評估德州撲克用戶端開發、短牌玩法與俱樂部系統。透過實際畫面及公開程式碼，確認產品流程與客製需求。
 
-
-[![GitHub stars](https://img.shields.io/github/stars/masterai-top/Texas-Hold-em-Source-Code)](https://github.com/masterai-top/Texas-Hold-em-Source-Code/stargazers)
-
-[![GitHub forks](https://img.shields.io/github/forks/masterai-top/Texas-Hold-em-Source-Code)](https://github.com/masterai-top/Texas-Hold-em-Source-Code/network)
-
-[![License](https://img.shields.io/badge/license-Commercial-blue.svg)](LICENSE)
-
-
-> **線上穩定營運多年 | 支援聯盟/俱樂部/私人局 | 媲美 hhpoker, wpk | 原始碼+美術+維運腳本**[reference:6]
-
-
----
-
-
-## 📖 目錄
-
-
-- [專案簡介](#專案簡介)
-
-- [核心功能](#核心功能)
-
-- [技術架構](#技術架構)
-
-- [快速開始](#快速開始)
-
-- [功能展示](#功能展示)
-
-- [為什麼選擇我們](#為什麼選擇我們)
-
-- [交付內容](#交付內容)
-
-- [聯絡我們](#聯絡我們)
-
-
----
-
+[圖文產品頁](https://masterai-top.github.io/Texas-Hold-em-Source-Code_AKpoker-Source-Code/zh-tw/) · [程式碼導覽與交付確認](PROJECT_GUIDE.zh-tw.md) · [LICENSE](LICENSE)
 
 ## 專案簡介
 
+從大廳到牌桌，看懂德州專案的每個環節。
 
-這是一套 **真正上線運作多年、久經考驗** 的德州撲克全套解決方案[reference:7]。
-不同於市面上拼湊的 Demo，我們的程式碼持續迭代，服務穩定，已被多個俱樂部用於實際運作。
-包括AKpoker和KKpoker都是使用我們的原始碼；
+### 長牌與短牌入口
 
+大廳截圖呈現長牌、短牌分類；公開用戶端包含 shortTexas 場景、協定與控制器，可從短牌模組開始閱讀。
 
-**適用場景：**
+### 俱樂部與牌局紀錄
 
-- 🏢 搭建自有品牌的德州撲克平台
+從房間清單、俱樂部入口到牌局紀錄模組，了解選桌與管理流程。
 
-- 🎯 開發俱樂部/聯盟競技系統
+### 保險與歷史介面
 
-- 📱 上架 iOS/Android 商店的棋牌遊戲
+透過原始截圖評估保險資訊及歷史紀錄的呈現；規則與計算邏輯仍需搭配完整交付驗證。
 
-- 🛠️ 學習企業級 C++/Cocos 遊戲開發
+## 實際產品畫面，讓需求討論更具體
 
+截圖取自本倉庫 Screencut，保留原始介面及標誌。網頁說明提供三種語言，截圖仍為原始中文，不表示用戶端已完成三語在地化。
 
----
+### 大廳與玩法入口
 
+長牌、短牌及俱樂部導覽，呈現產品的資訊層級。
 
-## ✨ 核心功能
+<img src="docs/assets/screenshots/lobby.webp" alt="大廳與玩法入口" width="320">
 
+### 德州牌桌
 
-| 模組 | 功能說明 |
+座位、公共牌區與操作按鈕，展示行動端牌桌配置。
 
-|------|----------|
+<img src="docs/assets/screenshots/table.webp" alt="德州牌桌" width="320">
 
-| **大廳系統** | 多玩法入口、公告、排行榜、商城[reference:8] |
+### 房間介面
 
-| **約局/俱樂部** | 好友約局、俱樂部創建/管理、聯盟賽事[reference:9] |
+對照實際畫面，規劃選桌及入桌體驗。
 
-| **牌桌邏輯** | 標準德州 / 短牌 / 奧馬哈，自動 Buy-in，Straddle，保險[reference:10] |
+<img src="docs/assets/screenshots/room.webp" alt="房間介面" width="320">
 
-| **賽事系統** | MTT（多桌錦標賽）、SNG（坐滿即玩）[reference:11] |
+### 保險介面
 
-| **後台管理** | 玩家管理、報表統計、局分調整、風險控制[reference:12] |
+觀察保險相關資訊在牌局中的位置。
 
+<img src="docs/assets/screenshots/insurance.webp" alt="保險介面" width="320">
 
-##  🎮 完整玩法矩陣
+### 歷史保險
 
+查看歷史紀錄頁，評估查閱資訊的體驗。
 
-- **德州撲克**（Texas Hold'em）— 經典玩法
+<img src="docs/assets/screenshots/insurance-history.webp" alt="歷史保險" width="320">
 
-- **奧馬哈**（Omaha）—— 四張底牌，更多變化
+### 牌局資訊展示
 
-- **短牌**（Short Deck）— 節奏更快，策略不同
+原檔名為「可存证牌界面」；截圖並非公平性或存證效力的證明。
 
-- **AOF**（All-in or Fold）— 刺激的 All-in 玩法
+<img src="docs/assets/screenshots/hand-record.webp" alt="牌局資訊展示" width="320">
 
-- **MTT**（多桌錦標賽）— 大規模競技
+### 管理後台
 
-- **SNG**（坐滿即玩）— 快速開賽[reference:13]
+畫面包含使用者、俱樂部及報表等選單；不代表對應後台原始碼已公開。
 
+<img src="docs/assets/screenshots/admin.webp" alt="管理後台" width="900">
 
----
 
+## 技術與公開目錄
 
-## 🏗️ 技術架構
+目前倉庫展示程式碼與產品資料，不能據此承諾一鍵部署。可確認的公開檔案為 Cocos 風格 JavaScript 用戶端與 Lua 後端模組；原 README 提及的 C++ 核心、Vue 3 / Go 後台及完整資料庫部署文件，需另外核對。
 
+| Path | Module |
+| --- | --- |
+| [前端/Script/shortTexas](前端/Script/shortTexas) | Cocos / JavaScript |
+| [后端/main.lua](后端/main.lua) | Lua |
+| [后端/Club](后端/Club) | Club |
+| [Screencut](Screencut) | 查看產品截圖 |
 
-┌──────────────────────────────────────────────────────────────┐
+[程式碼導覽與交付確認](PROJECT_GUIDE.zh-tw.md)
 
-│ 技術架構全景 │
+## 用具體清單確認開發與交付
 
-├──────────────────────────────────────────────────────────────┤
+- **01 · 看產品**：瀏覽大廳、牌桌與後台截圖，確認保留及客製的流程。
+- **02 · 看程式碼**：核對用戶端及後端模組、相依項目、引擎版本與缺少的檔案。
+- **03 · 驗證交付**：確認可執行展示、建置說明、資料庫腳本、授權範圍與功能驗收紀錄。
 
-│ ┌──────────────┐ ┌─────────────┐ ┌─────────────┐ │
+## 選型與品牌搜尋常見問題
 
-│ │ 用戶端 │ │ 服務端 │ │ 資料層 │ │
+### 搜尋 AKpoker、KKpoker 原始碼，為何會看到此專案？
 
-│ │ Cocos/Unity │◀－▶│ C++ 高併發 │◀──▶│ MySQL+Redis │ │
+倉庫名稱包含 AKpoker，原始截圖中出現 KKPOKER 標誌。這些資訊不足以證明本倉庫是 AKpoker 或 KKpoker 官方原始碼，也不能證明授權、合作或實際採用關係。
 
-│ └──────────────┘ └─────────────┘ └─────────────┘ │
+### 永旺德州有哪些可查看的產品資料？
 
-│ │ │ │ │
+本倉庫大廳截圖可見「永旺德州」名稱，並提供長牌、短牌入口、牌桌、保險與管理後台圖片。可用於評估產品流程，但截圖本身不證明品牌權屬、線上版本一致性或完整程式碼交付範圍。
 
-│ ▼ ▼ ▼ │
+### 可以直接部署完整德州原始碼嗎？
 
-│ ┌──────────────┐ ┌─────────────┐ ┌─────────────┐ │
+尚未驗證完整建置與部署流程。請先閱讀程式碼導覽，並向維護者確認完整專案、執行相依項目、資料庫與部署說明。
 
-│ │ H5/Web端 │ │ Tars/私有 │ │ 資料持久化 │ │
+### 是否提供奧馬哈、AOF、MTT 及 SNG？
 
-│ │ 跨平台適配 │ │ 高效率通訊協定 │ │ 快取加速 │ │
+原 README 提及這些玩法，但目前公開檔案不足以驗證其完整可用性。需要這些功能時，請確認對應展示與交付清單。
 
-│ └──────────────┘ └─────────────┘ └─────────────┘ │
+### 公開程式碼與客製服務如何授權？
 
-└──────────────────────────────────────────────────────────────┘
+目前 LICENSE 包含 MIT 授權文字。公開程式碼以該檔案及權利範圍為準；未公開專案、美術、品牌素材及客製服務需另行確認。
 
+## 聯絡維護者
 
-客戶端：cocos+js
+提供目標平台、玩法與交付需求，向維護者洽詢展示及程式碼範圍。
 
-伺服器：c++和lua
+- Telegram: [@xuzongbin001](https://t.me/xuzongbin001)
+- Email: [masterai918@gmail.com](mailto:masterai918@gmail.com)
 
-管理後台：使用vue-admin-gin開源框架建構。
-         vue3写前端页面
-go實作管理後台伺服器
-
-
-###🏆 為什麼選擇我們
-
-1. 久經考驗，穩定可靠
-
-這套源碼已在多個俱樂部 實際運作多年，服務穩定，程式碼持續迭代。
-
-
-2. 功能全面，對標頂流
-
-在功能、穩定性和擴展性上，全面優於 hhpoker 和 wpk。
-
-
-3. 高效能服務端
-
-C++ 編寫的服務端，支援 千人同時在線，無壓力運行。
-
-
-4. 完整交付，開箱即用
-
-✅ 全套服務端源碼 + 客戶端源碼
-
-
-✅ 完整的資料庫腳本
-
-
-✅ 高清美術資源與 UI 原始檔
-
-
-✅ 部署運維腳本和文檔
-
-
-5. 可二次開發
-
-程式碼結構清晰，模組化設計，支援 客製化開發和功能擴充。
-
-###📦 交付內容
-
-text
-
-交付清單
-
-├── 服務端源碼（C++）
-
-│ ├── 核心遊戲邏輯
-
-│ ├── 網路通訊模組
-
-│ └── 後台管理介面
-
-├── 客戶端源碼（Cocos Creator / Unity）
-
-│ ├── UI/UX 完整實現
-
-│ └── 多平台適配
-
-├── 資料庫腳本（MySQL）
-
-│ ├── 表結構
-
-│ └── 初始數據
-
-├── 美術資源
-
-│ ├── 高清圖片
-
-│ ├── UI 原始檔
-
-│ └── 音效文件
-
-└── 維運文檔
-    ├── 部署指南
-    └── 运维脚本[reference:24]
-### 🖼️ 功能展示
-<img width="246" height="381" alt="主界面" src="https://github.com/user-attachments/assets/d0b2f8fd-8436-4767-998b-c5b55cde276f" />
-<img width="246" height="381" alt="账单界面" src="https://github.com/user-attachments/assets/95706dcc-a864-43b5-9141-990a927472aa" />
-<img width="246" height="381" alt="游戏界面" src="https://github.com/user-attachments/assets/bce93909-e79f-46c2-8a2e-6fa97ddb75a9" />
-<img width="246" height="381" alt="游戏房间界面" src="https://github.com/user-attachments/assets/3d06669e-a7c2-4c73-bafb-433ca8ce712c" />
-<img width="956" height="457" alt="系统管理后台界面" src="https://github.com/user-attachments/assets/047ad980-a99f-453b-b1e7-38cbca9b4b48" />
-<img width="246" height="381" alt="我的界面" src="https://github.com/user-attachments/assets/9729f825-79d8-4c3a-a931-9a04ac92b0ee" />
-<img width="246" height="381" alt="提币界面" src="https://github.com/user-attachments/assets/6e5aa6bc-57f3-4eab-8653-68c9a91fda01" />
-<img width="246" height="381" alt="历史保险界面" src="https://github.com/user-attachments/assets/f9c78301-c6c2-4118-a4d0-428ea22c4c10" />
-<img width="246" height="381" alt="可存证牌界面" src="https://github.com/user-attachments/assets/1fb14d89-52c7-40c4-9477-b2cc1604c6a1" />
-<img width="246" height="381" alt="活动界面" src="https://github.com/user-attachments/assets/2ec07b48-e74e-4692-9d91-e53effb8eb47" />
-<img width="246" height="381" alt="充值账单界面" src="https://github.com/user-attachments/assets/72b6ad88-7717-4407-b354-4bc2c2cfc9f4" />
-<img width="246" height="381" alt="充币界面" src="https://github.com/user-attachments/assets/87193e5b-d26c-4c46-b9fc-318f61a53bc6" />
-<img width="246" height="381" alt="保险界面" src="https://github.com/user-attachments/assets/23202125-00fb-4e72-a5a2-bd388749749b" />
-
-## 📞 聯絡我們
-
-Telegram @xuzongbin001
-
-備用信箱 masterai918@gmail.com
-
-
-## ⭐ 支持我們
-
-如果這個項目對您有幫助，請給我們一個 Star ⭐，這是對我們最大的認可！
-
-
-https://api.star-history.com/svg?repos=masterai-top/Texas-Hold-em-Source-Code&type=Date
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
