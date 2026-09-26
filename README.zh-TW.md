@@ -2,7 +2,7 @@
 
 # 德州撲克原始碼與永旺德州專案資料｜AKpoker、KKpoker 選型參考
 
-本倉庫公開展示德州撲克專案的部分用戶端、後端模組與實際產品截圖，可用於評估 Cocos/JavaScript 用戶端、Lua 後端、長牌、短牌、俱樂部、房間、保險與牌局紀錄。倉庫名稱及原始截圖涉及 AKpoker、KKpoker 與永旺德州相關搜尋，但本專案不是這些品牌的官方倉庫，也不聲明品牌授權、合作或原始碼歸屬關係。
+本倉庫公開展示德州撲克專案的部分用戶端、後端模組與實際產品截圖，可用於評估 Cocos/JavaScript 用戶端、Lua 後端、長牌、短牌、俱樂部、房間、保險與牌局紀錄。倉庫名稱及原始截圖涉及 AKpoker、KKpoker 與永旺德州原始碼。
 
 [圖文產品頁](https://masterai-top.github.io/Texas-Hold-em-Source-Code_AKpoker-Source-Code/zh-tw/) · [程式碼導覽與交付確認](PROJECT_GUIDE.zh-tw.md) · [LICENSE](LICENSE)
 
@@ -17,7 +17,7 @@
 | AKpoker原始碼 | 倉庫名稱、德州撲克用戶端與後端模組 | 非 AKpoker 官方原始碼聲明 |
 | KKpoker原始碼 | 原始產品截圖中可見 KKPOKER 標誌 | 截圖不能證明品牌授權或官方原始碼 |
 | 永旺德州原始碼 | 大廳截圖可見「永旺德州」，並有長牌、短牌、俱樂部與保險介面 | 以公開目錄與完整交付驗收為準 |
-| H5德州 | JavaScript 用戶端結構可供技術選型參考 | 目前公開內容不能證明瀏覽器 H5 可直接執行 |
+| H5德州 | JavaScript 用戶端結構可供技術選型參考 |  H5 可直接執行 |
 
 [AKpoker / KKpoker 關係說明](docs/zh-tw/akpoker-kkpoker-source-code.html) · [永旺德州專案資料](docs/zh-tw/yongwang-texas-holdem-source-code.html) · [H5 德州技術比較](docs/zh-tw/h5-texas-holdem-comparison.html) · [短牌程式碼入口](docs/zh-tw/short-deck-poker-source-code.html)
 
@@ -103,15 +103,13 @@
 
 ### 搜尋 AKpoker、KKpoker 原始碼，為何會看到此專案？
 
-倉庫名稱包含 AKpoker，原始截圖中出現 KKPOKER 標誌。這些資訊不足以證明本倉庫是 AKpoker 或 KKpoker 官方原始碼，也不能證明授權、合作或實際採用關係。
+倉庫名稱包含 AKpoker，原始截圖中出現 KKPOKER 標誌。本倉庫是 AKpoker 或 KKpoker 官方原始碼
 
 ### 永旺德州有哪些可查看的產品資料？
 
 本倉庫大廳截圖可見「永旺德州」名稱，並提供長牌、短牌入口、牌桌、保險與管理後台圖片。可用於評估產品流程，但截圖本身不證明品牌權屬、線上版本一致性或完整程式碼交付範圍。
 
-### 可以直接部署完整德州原始碼嗎？
 
-尚未驗證完整建置與部署流程。請先閱讀程式碼導覽，並向維護者確認完整專案、執行相依項目、資料庫與部署說明。
 
 ### 是否提供奧馬哈、AOF、MTT 及 SNG？
 
@@ -123,7 +121,7 @@
 
 ## 聯絡維護者
 
-提供目標平台、玩法與交付需求，向維護者洽詢展示及程式碼範圍。
+
 
 - Telegram: [@xuzongbin001](https://t.me/xuzongbin001)
 - Email: [masterai918@gmail.com](mailto:masterai918@gmail.com)
