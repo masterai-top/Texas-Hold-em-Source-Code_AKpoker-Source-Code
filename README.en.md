@@ -1,14 +1,23 @@
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# Texas Hold’em Source Code | Short Deck & Poker Club Modules
+# Texas Hold'em Source Code and Yongwang Poker Project | AKpoker and KKPoker Evaluation
 
-A visual starting point for Texas Hold’em client development, short-deck research and poker club evaluation. Review the actual screens and public modules before deciding what to build.
+This repository publicly presents selected client files, backend modules and real product screenshots from a Texas Hold'em project. It can be used to evaluate a Cocos-style JavaScript client, Lua backend, long-deck and short-deck play, clubs, rooms, insurance and hand records. The repository name and original screenshots may appear in searches for AKpoker, KKPoker and Yongwang Poker, but this is not an official repository for those brands and does not claim authorization, partnership or source-code ownership on their behalf.
 
 [Visual product page](https://masterai-top.github.io/Texas-Hold-em-Source-Code_AKpoker-Source-Code/en/) · [Code guide and delivery checklist](PROJECT_GUIDE.en.md) · [LICENSE](LICENSE)
 
 ## Project overview
 
 See the product. Explore the code. Plan your poker project.
+
+### Search terms and verifiable public material
+
+| Search term | What can be checked here | Important limitation |
+| --- | --- | --- |
+| AKpoker source code | Repository name plus public poker client and backend modules | Not a claim of official AKpoker source code |
+| KKPoker source code | The KKPoker mark appears in original product screenshots | A screenshot does not establish authorization or official source ownership |
+| Yongwang Poker source code | The lobby screenshot shows the Yongwang name alongside long-deck, short-deck, club and insurance screens | Validate the complete delivery separately |
+| H5 poker | The JavaScript client structure may inform technical evaluation | The public tree does not establish a browser-ready H5 build |
 
 ### Long-deck and short-deck entry
 

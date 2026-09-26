@@ -1,14 +1,25 @@
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# 德州扑克源码（德州源码）｜长牌、短牌与俱乐部系统
+# 德州扑克源码与永旺德州项目资料｜AKpoker、KKpoker 选型参考
 
-面向德州扑克客户端开发、短牌玩法研究与俱乐部系统评估。先看真实界面，再对照公开代码，确认适合你的开发需求。
+本仓库公开展示一套德州扑克项目的部分客户端、后端模块与真实产品截图，可用于评估 Cocos/JavaScript 客户端、Lua 后端、长牌、短牌、俱乐部、房间、保险和牌局记录等实现范围。仓库名称及原始截图涉及 AKpoker、KKpoker 与永旺德州相关搜索，但本项目不是这些品牌的官方仓库，也不声明与品牌方存在授权、合作或源码归属关系。
 
 [图文产品页](https://masterai-top.github.io/Texas-Hold-em-Source-Code_AKpoker-Source-Code/zh-cn/) · [代码导览与交付核对](PROJECT_GUIDE.zh-cn.md) · [LICENSE](LICENSE)
 
 ## 项目简介
 
 从大厅到牌桌，直观看懂这套德州项目。
+
+### 搜索关键词与公开内容的关系
+
+| 搜索词 | 本仓库可核对内容 | 边界说明 |
+| --- | --- | --- |
+| AKpoker源码 | 仓库名称、德州扑克客户端与后端模块 | 非 AKpoker 官方源码声明 |
+| KKpoker源码 | 原始产品截图中可见 KKPOKER 标识 | 截图不能证明品牌授权或官方源码 |
+| 永旺德州源码 | 大厅截图可见“永旺德州”，并有长牌、短牌、俱乐部和保险界面 | 以公开目录与完整交付验收为准 |
+| H5德州 | JavaScript 客户端结构可供技术选型参考 | 当前公开内容不能证明浏览器 H5 可直接运行 |
+
+[AKpoker / KKpoker 关系说明](docs/zh-cn/akpoker-kkpoker-source-code.html) · [永旺德州项目资料](docs/zh-cn/yongwang-texas-holdem-source-code.html) · [H5 德州技术对比](docs/zh-cn/h5-texas-holdem-comparison.html) · [短牌代码入口](docs/zh-cn/short-deck-poker-source-code.html)
 
 ### 长牌与短牌入口
 
